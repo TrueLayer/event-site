@@ -113,7 +113,7 @@
                                 <g id="consent-page" transform="translate(61.000000, 127.000000)">
                                     <g id="allow-btn" transform="translate(183.000000, 570.000000)">
                                         <rect id="btn-colour" fill="#E2796E" x="1" y="0" width="156" height="46" rx="5"></rect>
-                                        <text id="text" font-family="ProximaNova-Regular, Proxima Nova" font-size="16"
+                                        <text id="text" font-family="Montserrat-Regular, Montserrat" font-size="16"
                                             font-weight="normal" letter-spacing="1.14285707" fill="#FFFFFF">
                                             <tspan x="46.4668573" y="30.0384615">ALLOW</tspan>
                                         </text>
@@ -121,7 +121,7 @@
                                     <g id="cancel-btn" transform="translate(23.000000, 570.000000)">
                                         <rect id="btn-colour" stroke="#E2796E" x="0.5" y="0.5" width="155" height="45"
                                             rx="5"></rect>
-                                        <text id="text" font-family="ProximaNova-Regular, Proxima Nova" font-size="16"
+                                        <text id="text" font-family="Montserrat-Regular, Montserrat" font-size="16"
                                             font-weight="normal" letter-spacing="1.142857" fill="#E2796E">
                                             <tspan x="44.219429" y="30.0384615">CANCEL</tspan>
                                         </text>
@@ -738,16 +738,9 @@
                                         <g id="connected-group-3" transform="translate(22.000000, 759.000000)" fill="#2D2D2D">
                                                 <text id="21-May-2019" font-family="Montserrat-Regular, Montserrat" font-size="13" font-weight="normal" line-spacing="21">
                                                     <tspan x="0.0876712329" y="14.5">21 May</tspan>
-                                                    <tspan x="0.0876712329" y="35.5">2019</tspan>
                                                 </text>
                                                 <text id="£--550.00" font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" line-spacing="21">
                                                     <tspan x="279.087671" y="14.5">£ -550.00</tspan>
-                                                </text>
-                                                <text id="Purchase" font-family="Montserrat-Regular, Montserrat" font-size="12" font-weight="normal" line-spacing="21">
-                                                    <tspan x="199.087671" y="37.5">Purchase</tspan>
-                                                </text>
-                                                <text id="Personal" font-family="Montserrat-Regular, Montserrat" font-size="12" font-weight="normal" line-spacing="21">
-                                                    <tspan x="73.0876712" y="37.5">Personal</tspan>
                                                 </text>
                                                 <text id="park-group" font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" line-spacing="21">
                                                     <tspan x="73.0876712" y="14.5">PARK GROUP</tspan>
@@ -1150,7 +1143,7 @@
                 .to('#face-id', 0, { display: "block", delay: 0.3 })
                 .to('#face-id', 0.1, { display: "none", delay: 1.5 })
                 .to('#connected', 0, { display: "block" })
-                .from('#navbar-gradient', 0.2, { scaleX: 0, transformOrigin: "left", ease: Power2.easeOut })
+                .from('#navbar-gradient', 0.2, { scaleX: 0, transformOrigin: "left", ease: Power2.easeOut, delay: 0.2 })
                 .from('#one-connected', 0.1, { scaleX: 0, transformOrigin: "left", ease: Power2.easeOut, delay: 0.3 })
                 .from('#connected-bank', 0.1, { scaleX: 0, transformOrigin: "left", ease: Power2.easeOut, delay: 0.3 })
                 .from('#transactions', 0.1, { scaleX: 0, transformOrigin: "left", ease: Power2.easeOut, delay: 0.3 })
