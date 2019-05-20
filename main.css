@@ -253,11 +253,11 @@ div.payments:hover .btn-payments {
 
 .contact-title {
   font-weight: 400;
-  color: #093554; }
+  color: #fff; }
 
 .contact-subtitle {
   font-weight: 100;
-  color: #365a73;
+  color: #fff;
   line-height: 1.8; }
 
 /************* CONTACT US *************/
@@ -544,7 +544,7 @@ input.form-control {
   position: relative; }
 
 .data-api-img:before {
-  background-image: url("../img/data-api-bg.svg");
+  background-image: url("/event-site/img/data-api-bg.svg");
   background-size: cover;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -556,9 +556,17 @@ input.form-control {
   height: 100%;
   width: 100%; }
 
-.contact-form-product {
-  background-color: #eee;
-  min-height: 200px; }
+#payments-api ~ .contact-form-product {
+  background-color: #87bafc;
+  min-height: 300px;
+  margin-top: 0;
+  height: auto; }
+
+#data-api ~ .contact-form-product {
+  background-color: #7a7fff;
+  min-height: 300px;
+  margin-top: 0;
+  height: auto; }
 
 #data-api li:before {
   content: "\f00c";
@@ -598,7 +606,7 @@ input.form-control {
   margin: 0; }
 
 .payments-api-img:before {
-  background-image: url("../img/payments-api-bg.svg");
+  background-image: url("/event-site/img/payments-api-bg.svg");
   background-size: cover;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -619,7 +627,7 @@ input.form-control {
   margin-left: -30px;
   width: 30px;
   /* same as padding-left set on li */
-  color: #6683ac; }
+  color: #093554; }
 
 #payments-api ul {
   list-style: none;
@@ -647,7 +655,7 @@ input.form-control {
 #iphone-piggy {
   overflow: hidden;
   position: relative;
-  min-width: 70%; }
+  min-width: 65%; }
 
 #shadow {
   position: absolute;
@@ -665,6 +673,9 @@ input.form-control {
   height: 70px;
   width: 70px;
   border: none; }
+
+#piggy, #payments {
+  margin-top: -200px; }
 
 #piggy .play, #piggy .redo {
   background-color: #7a7fff; }
@@ -686,7 +697,7 @@ input.form-control {
   font-size: 22px;
   padding-left: 5px; }
 
-#provider-selection, #choose-bank, #face-id, #connected {
+#provider-selection, #choose-bank, #face-id, #connected, #barclays-done, #tl-done {
   display: none; }
 
 /******* MOBILE *******/
@@ -714,6 +725,5 @@ input.form-control {
   .data img, .payments img {
     width: 200px;
     height: 200px; } }
-/******* TEST *******/
 
 /*# sourceMappingURL=main.css.map */
