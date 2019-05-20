@@ -45,6 +45,8 @@ body.body-splash {
       font-size: 50px !important;
       color: $white;
       width: 100%;
+      position: relative;
+      animation: arrow-animate 2s infinite ease-in-out;
   }
 
   .arrow-title {
@@ -59,6 +61,14 @@ body.body-splash {
     50% {font-size: 250px}
     70% {font-size: 250px}
     100% {font-size: 250px}
+}
+
+@keyframes arrow-animate {
+    0% {top: 0}
+    30% {top: -10px}
+    50% {top: 0}
+    70% {top: 0}
+    100% {top: 0}
 }
 
   
