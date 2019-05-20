@@ -54,7 +54,7 @@
                 next.classList.add("hide");
                 submit.classList.remove("hide");
                 document.getElementById("data").classList.add("selected-product");
-                document.getElementById("message").value = "I was at the Visa Forum."
+                document.getElementById("message").value = "Sent from the Visa Forum."
             }
         }
     
@@ -157,38 +157,32 @@
                 $(".steps").addClass("hide");
                 $("#submit").addClass("hide");
             })  
-                // $("#contact-done").removeClass("hide");
-                // $("#radio-wrapper").addClass("hide");
-                // $(".steps").addClass("hide");
-                // $("#submit").addClass("hide");
+           
             } else if (product === "payments-api") {
-            //     $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwgvb?" + $("#contact-form").serialize(), function () {
-            //       $("#contact-done").removeClass("hide");
-            //      $("#radio-wrapper").addClass("hide");
-            //     $(".steps").addClass("hide");
-            //     $("#submit").addClass("hide");
-            // }) 
-
-            $("#contact-done").removeClass("hide");
-                $("#radio-wrapper").addClass("hide");
+                $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwgvb?" + $("#contact-form").serialize(), function () {
+                  $("#contact-done").removeClass("hide");
+                 $("#radio-wrapper").addClass("hide");
                 $(".steps").addClass("hide");
                 $("#submit").addClass("hide");
+            }) 
+
+           
     
             } else if (product === "both") {
-            //     $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwcqe?" + $("#contact-form").serialize(), function () {
-            //       $("#contact-done").removeClass("hide");
-            //      $("#radio-wrapper").addClass("hide");
-            //     $(".steps").addClass("hide");
-            //     $("#submit").addClass("hide");
-            // }) 
+                $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwcqe?" + $("#contact-form").serialize(), function () {
+                  $("#contact-done").removeClass("hide");
+                 $("#radio-wrapper").addClass("hide");
+                $(".steps").addClass("hide");
+                $("#submit").addClass("hide");
+            }) 
  
             } else {
-            //     $.get("https://hooks.zapier.com/hooks/catch/2293863/9xh0bs?" + $("#contact-form").serialize(), function () {
-            //       $("#contact-done").removeClass("hide");
-            //      $("#radio-wrapper").addClass("hide");
-            //     $(".steps").addClass("hide");
-            //     $("#submit").addClass("hide");
-            // }) 
+                $.get("https://hooks.zapier.com/hooks/catch/2293863/9xh0bs?" + $("#contact-form").serialize(), function () {
+                  $("#contact-done").removeClass("hide");
+                 $("#radio-wrapper").addClass("hide");
+                $(".steps").addClass("hide");
+                $("#submit").addClass("hide");
+            }) 
            
             }
         })

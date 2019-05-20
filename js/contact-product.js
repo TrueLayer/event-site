@@ -49,7 +49,7 @@
                 step.innerHTML = count;
                 next.classList.add("hide");
                 submit.classList.remove("hide");
-                document.getElementById("message").value = "I was at the Visa Forum."
+                document.getElementById("message").value = "Sent from the Visa Forum."
             } else if (validateEmail(email)) {
                 email1.classList.add("hide");
 
@@ -132,28 +132,21 @@
             e.preventDefault();
             var product = $("input[name='product']:checked").val();
             if (product === "data-api") {
-                //     $.get("https://hooks.zapier.com/hooks/catch/2293863/75b9x4?" + $("#contact-form").serialize(), function () {
-                //     $("#contact-done").removeClass("hide");
-                //     $("#radio-wrapper").addClass("hide");
-                //     $(".steps").addClass("hide");
-                //     $("#submit").addClass("hide");
-                // })  
-                $("#contact-done").removeClass("hide");
-                $("#email").addClass("hide");
-                $(".steps").addClass("hide");
-                $("#submit").addClass("hide");
+                    $.get("https://hooks.zapier.com/hooks/catch/2293863/75b9x4?" + $("#contact-form").serialize(), function () {
+                    $("#contact-done").removeClass("hide");
+                    $("#radio-wrapper").addClass("hide");
+                    $(".steps").addClass("hide");
+                    $("#submit").addClass("hide");
+                })  
+            
             } else if (product === "payments-api") {
-                //     $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwgvb?" + $("#contact-form").serialize(), function () {
-                //       $("#contact-done").removeClass("hide");
-                //      $("#radio-wrapper").addClass("hide");
-                //     $(".steps").addClass("hide");
-                //     $("#submit").addClass("hide");
-                // }) 
+                    $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwgvb?" + $("#contact-form").serialize(), function () {
+                      $("#contact-done").removeClass("hide");
+                     $("#radio-wrapper").addClass("hide");
+                    $(".steps").addClass("hide");
+                    $("#submit").addClass("hide");
+                }) 
 
-                $("#contact-done").removeClass("hide");
-                $("#radio-wrapper").addClass("hide");
-                $(".steps").addClass("hide");
-                $("#submit").addClass("hide");
 
             } else if (product === "both") {
                 //     $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwcqe?" + $("#contact-form").serialize(), function () {

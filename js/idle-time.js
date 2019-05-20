@@ -10,7 +10,7 @@
 
             function resetTimer() {
                 clearTimeout(time);
-                time = setTimeout(logout, 115000);
+                time = setTimeout(logout, 180000);
             }
         };
 
