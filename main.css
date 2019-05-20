@@ -30,6 +30,10 @@ body.body-splash {
 .subtitle {
   color: #fff; }
 
+#arrow {
+  font-size: 150px !important;
+  color: #fff; }
+
 @keyframes pulse {
   0% {
     font-size: 250px; }
