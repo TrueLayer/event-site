@@ -546,7 +546,7 @@ input.form-control {
   margin: 0; }
 
 #data-api .title-content {
-  min-height: 50vh; }
+  min-height: 60vh; }
 
 .phone-mock {
   width: 80%;
@@ -612,7 +612,7 @@ input.form-control {
   position: relative; }
 
 #payments-api .title-content {
-  min-height: 50vh; }
+  min-height: 60vh; }
 
 #payments-api {
   background: #093554;
