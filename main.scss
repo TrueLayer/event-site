@@ -34,7 +34,7 @@ body.body-splash {
 .click-me {
     animation: pulse 2s infinite ease-in-out;
     font-weight: 900;
-    height: 370px;
+    height: 300px;
   }
   
   .subtitle {
@@ -45,6 +45,11 @@ body.body-splash {
       font-size: 50px !important;
       color: $white;
       width: 100%;
+  }
+
+  .arrow-title {
+      width: 100%;
+      font-size: 14px;
   }
 
 
@@ -679,7 +684,7 @@ input.form-control {
 }
 
 #data-api .title-content {
-    min-height:45vh;
+    min-height:50vh;
 
 }
 
@@ -689,7 +694,6 @@ input.form-control {
 }
 
 .piggy-bank {
-    height: 100%;
     width: 100%;
 }
 
@@ -763,7 +767,7 @@ width: 100%;
 }
 
 #payments-api .title-content {
-    min-height:45vh;
+    min-height:50vh;
 
 }
 
@@ -836,10 +840,17 @@ width: 100%;
 #iphone-piggy {
     overflow: hidden;
     position:relative;
-    min-width: 50%;
+    min-width: 55%;
    
 }
 
+// .extra-margin-top {
+//     margin-top: 250px;
+// }
+
+#iphone-piggy {
+    margin-top: -200px;
+}
 
 #shadow {
 
@@ -851,7 +862,7 @@ width: 100%;
 
 .play, .redo {
     position: absolute;
-    top: 47%;
+    top: 20%;
     // left: 44%;
     left: 0;
     right: 0;
@@ -863,9 +874,9 @@ width: 100%;
     border: none;
 }
 
-#piggy, #payments-page {
-    margin-top: -200px;
-}
+// #piggy, #payments-page {
+//     margin-top: -200px;
+// }
 
 #piggy .play, #piggy .redo {
     background-color: $electric-violet;
