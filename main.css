@@ -31,8 +31,9 @@ body.body-splash {
   color: #fff; }
 
 #arrow {
-  font-size: 150px !important;
-  color: #fff; }
+  font-size: 50px !important;
+  color: #fff;
+  width: 100%; }
 
 @keyframes pulse {
   0% {
