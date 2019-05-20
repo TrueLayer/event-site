@@ -134,7 +134,7 @@
             if (product === "data-api") {
                     $.get("https://hooks.zapier.com/hooks/catch/2293863/75b9x4?" + $("#contact-form").serialize(), function () {
                     $("#contact-done").removeClass("hide");
-                    $("#radio-wrapper").addClass("hide");
+                    $("#email").addClass("hide");
                     $(".steps").addClass("hide");
                     $("#submit").addClass("hide");
                 })  
@@ -142,7 +142,7 @@
             } else if (product === "payments-api") {
                     $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwgvb?" + $("#contact-form").serialize(), function () {
                       $("#contact-done").removeClass("hide");
-                     $("#radio-wrapper").addClass("hide");
+                     $("#email").addClass("hide");
                     $(".steps").addClass("hide");
                     $("#submit").addClass("hide");
                 }) 
