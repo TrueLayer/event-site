@@ -35,7 +35,7 @@ body.body-splash {
   color: #fff;
   width: 100%;
   position: relative;
-  animation: arrow-animate 1s infinite ease-in-out; }
+  animation: arrow-animate 2s infinite ease-in-out; }
 
 .arrow-title {
   width: 100%;
