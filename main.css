@@ -537,7 +537,7 @@ input.form-control {
   margin: 0; }
 
 #data-api .title-content {
-  min-height: 50vh; }
+  min-height: 45vh; }
 
 .phone-mock {
   width: 80%;
@@ -604,7 +604,7 @@ input.form-control {
   position: relative; }
 
 #payments-api .title-content {
-  min-height: 50vh; }
+  min-height: 45vh; }
 
 #payments-api {
   background: #093554;
@@ -667,7 +667,7 @@ input.form-control {
 #iphone-piggy {
   overflow: hidden;
   position: relative;
-  min-width: 60%; }
+  min-width: 50%; }
 
 #shadow {
   position: absolute;
