@@ -747,9 +747,11 @@
                     <h6 class="mb-4">Transfer money between bank accounts and reduce friction in payments flows.
                         <br>
                         <br>
-                     You can test the Payments API in our Sandbox Environment. Scan the QR code below to get started.
+                     If you want to use our self-serve you can test the Payments API in our Sandbox environment.
+                     <br><br>
+                     Scan the QR code below to get started.
                     </h6>
-                    <img class="qr-code" src="/event-site/img/Sandbox.png" alt="QR code">
+                    <img class="qr-code" src="/event-site/img/sandbox.png" alt="QR code">
                 </div>
             </div>
         </div>
@@ -760,7 +762,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <h3 class="contact-title">Access Open Banking now</h3>
-                    <p class="contact-subtitle">Skip the line and be one of the first ones to be contcated by our team
+                    <p class="contact-subtitle">Skip the line and be the first one to be contacted by our team
                         and get answers to all of your questions. </p>
                 </div>
                 <div class="contact-us col-lg-6 d-flex flex-column justify-content-center">
@@ -933,8 +935,8 @@
 
         var tl = new TimelineMax();
         $(window).scroll(function () {
-            var hT = $('#payments').offset().top,
-                hH = $('#payments').outerHeight(),
+            var hT = $('#payments-page').offset().top,
+                hH = $('#payments-page').outerHeight(),
                 wH = $(window).height(),
                 wS = $(this).scrollTop();
             if (wS > (hT + hH - wH - 100)) {
