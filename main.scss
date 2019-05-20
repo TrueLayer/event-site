@@ -90,9 +90,12 @@ i.fa-home {
 .header-mark {
     margin: 20px;
     position: absolute;
-    top: 0;
+    top: 20px;
+    left: 20px;
     cursor: pointer;
     display: block;
+    width: 70px;
+    height: 70px;
 }
 
 
@@ -101,8 +104,8 @@ i.fa-home {
     width: 100vw;
     height: auto;
     z-index: -2;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .tl-overview, .hero {
@@ -622,7 +625,7 @@ form a.btn-dropdown {
 }
 
 hr {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 input.form-control {
