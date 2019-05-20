@@ -53,9 +53,9 @@ body.homepage {
 
 i.fa-home {
   position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 27px;
+  top: 40px;
+  right: 40px;
+  font-size: 40px;
   position: fixed; }
 
 .data-home-btn {
@@ -537,7 +537,7 @@ input.form-control {
   margin: 0; }
 
 #data-api .title-content {
-  min-height: 60vh; }
+  min-height: 30vh; }
 
 .phone-mock {
   width: 80%;
