@@ -336,6 +336,17 @@ div.payments:hover .btn-payments {
       line-height: 1.8;
   }
 
+  .contact-home .contact-title {
+    font-weight: 400;
+    color: $cloud-burst;
+}
+
+.contact-home .contact-subtitle {
+    font-weight: 100;
+    color: #365a73;
+    line-height: 1.8;
+}
+
   /************* CONTACT US *************/
 
 
@@ -851,7 +862,7 @@ width: 100%;
     background-color: $electric-violet;
 }
 
-#payments .play, #payments .redo {
+#payments-page .play, #payments-page .redo {
     background-color: $kashmir-blue;
 }
 
@@ -859,7 +870,7 @@ width: 100%;
     background-color: $dark-violet;
 }
 
-#payments .play:hover, #payments .redo:hover {
+#payments-page .play:hover, #payments-page .redo:hover {
     background-color: $cloud-burst;
 }
 

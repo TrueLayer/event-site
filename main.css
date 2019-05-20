@@ -260,6 +260,15 @@ div.payments:hover .btn-payments {
   color: #fff;
   line-height: 1.8; }
 
+.contact-home .contact-title {
+  font-weight: 400;
+  color: #093554; }
+
+.contact-home .contact-subtitle {
+  font-weight: 100;
+  color: #365a73;
+  line-height: 1.8; }
+
 /************* CONTACT US *************/
 #support {
   padding: 150px 0; }
@@ -680,13 +689,13 @@ input.form-control {
 #piggy .play, #piggy .redo {
   background-color: #7a7fff; }
 
-#payments .play, #payments .redo {
+#payments-page .play, #payments-page .redo {
   background-color: #44689a; }
 
 #piggy .play:hover, #piggy .redo:hover {
   background-color: #42448e; }
 
-#payments .play:hover, #payments .redo:hover {
+#payments-page .play:hover, #payments-page .redo:hover {
   background-color: #093554; }
 
 .redo {
