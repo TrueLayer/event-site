@@ -149,20 +149,20 @@
 
 
             } else if (product === "both") {
-                //     $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwcqe?" + $("#contact-form").serialize(), function () {
-                //       $("#contact-done").removeClass("hide");
-                //      $("#radio-wrapper").addClass("hide");
-                //     $(".steps").addClass("hide");
-                //     $("#submit").addClass("hide");
-                // }) 
+                    $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwcqe?" + $("#contact-form").serialize(), function () {
+                      $("#contact-done").removeClass("hide");
+                     $("#radio-wrapper").addClass("hide");
+                    $(".steps").addClass("hide");
+                    $("#submit").addClass("hide");
+                }) 
 
             } else {
-                //     $.get("https://hooks.zapier.com/hooks/catch/2293863/9xh0bs?" + $("#contact-form").serialize(), function () {
-                //       $("#contact-done").removeClass("hide");
-                //      $("#radio-wrapper").addClass("hide");
-                //     $(".steps").addClass("hide");
-                //     $("#submit").addClass("hide");
-                // }) 
+                    $.get("https://hooks.zapier.com/hooks/catch/2293863/9xh0bs?" + $("#contact-form").serialize(), function () {
+                      $("#contact-done").removeClass("hide");
+                     $("#radio-wrapper").addClass("hide");
+                    $(".steps").addClass("hide");
+                    $("#submit").addClass("hide");
+                }) 
 
             }
         })
