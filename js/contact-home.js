@@ -63,9 +63,8 @@
         function radioCheck() {
             var product = document.querySelector("input[name=product]:checked").value;
             if (product === "data-api") {
-                document.getElementById("payments").classList.remove("selected-product");
+               document.getElementById("payments").classList.remove("selected-product");
                document.getElementById("data").classList.add("selected-product");
-                console.log("yes"); 
             } else if (product === "payments-api") {
                 document.getElementById("data").classList.remove("selected-product"); 
                 document.getElementById("payments").classList.add("selected-product");
@@ -74,7 +73,6 @@
                 document.getElementById("payments").classList.add("selected-product"); 
             }
         }
-    
     
     
         $(document).ready(function () {
@@ -166,7 +164,6 @@
                 $("#submit").addClass("hide");
             }) 
 
-           
     
             } else if (product === "both") {
                 $.get("https://hooks.zapier.com/hooks/catch/2293863/7rwcqe?" + $("#contact-form").serialize(), function () {
@@ -178,8 +175,8 @@
  
             } else {
                 $.get("https://hooks.zapier.com/hooks/catch/2293863/9xh0bs?" + $("#contact-form").serialize(), function () {
-                  $("#contact-done").removeClass("hide");
-                 $("#radio-wrapper").addClass("hide");
+                $("#contact-done").removeClass("hide");
+                $("#radio-wrapper").addClass("hide");
                 $(".steps").addClass("hide");
                 $("#submit").addClass("hide");
             }) 
