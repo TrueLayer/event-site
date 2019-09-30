@@ -28,7 +28,13 @@ body.body-splash {
   height: 300px; }
 
 .subtitle {
-  color: #fff; }
+  color: #fff;
+  height: 150px;
+  width: auto;
+}
+ 
+
+
 
 #arrow {
   font-size: 50px !important;
