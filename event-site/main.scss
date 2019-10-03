@@ -39,6 +39,8 @@ body.body-splash {
   
   .subtitle {
       color: $white;
+      height: 150px;
+      width: auto;
   }
 
   #arrow {
@@ -164,6 +166,7 @@ i.fa-home {
     padding: 20px 30px;
     margin-top: 0;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .steps {
@@ -703,13 +706,13 @@ input.form-control {
     height: auto;
 }
 
-.piggy-bank {
-    width: 100%;
-}
+// .piggy-bank {
+//     width: 100%;
+// }
 
 .qr-code {
-    height: 200px;
-    width: auto;
+    width: 80%;
+    height: auto;
     margin-left: -15px;
 }
 
@@ -923,6 +926,39 @@ width: 100%;
 /******* MOBILE *******/
 
 
+@media only screen and (max-width: 992px) {
+    .contact-us {
+        border-radius: 0;
+        padding: 50px 30px;
+        margin: 10px 0 50px;
+        box-shadow: none;
+    }
+
+    .data img, .payments img {
+        width: 200px;
+        height: 200px;
+    }
+
+    // #iphone-piggy {
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    // }
+
+    .data-api-img, .payments-api-img {
+        padding-top: 50px;
+    }
+
+    .click-me, .arrow-title, #arrow {
+        display: none;
+    }
+
+    .subtitle {
+        margin: 0 auto;
+    }
+
+
+}
+
 
 @media only screen and (max-width: 768px) {
     @keyframes pulse {
@@ -940,7 +976,7 @@ width: 100%;
     .contact-us {
         border-radius: 0;
         padding: 50px 30px;
-        margin: 10px 0 30px;
+        margin: 10px 0 50px;
         box-shadow: none;
     }
 
@@ -948,10 +984,54 @@ width: 100%;
         width: 200px;
         height: 200px;
     }
+
+
+    .products {
+        margin-top: 0;
+    }
+
+    .header-mark {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .data-api-img:before, .payments-api-img:before {
+        display: none;
+    }
+
+
+    .header-mark {
+        left: 0;
+        transform: translateX(0);
+        margin: 20px;
+    }
+
+    .homepage .header-mark {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
  
 }
 
 
+
+@media only screen and (max-width: 540px) {
+    .data-api-img, .payments-api-img {
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+}
 
 
 
