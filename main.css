@@ -733,6 +733,9 @@ input.form-control {
 #provider-selection, #choose-bank, #face-id, #connected, #barclays-done, #tl-done {
   display: none; }
 
+.data-api-img, .payments-api-img {
+  padding-top: 50px; }
+
 /******* MOBILE *******/
 @media only screen and (max-width: 992px) {
   .contact-us {
@@ -744,9 +747,6 @@ input.form-control {
   .data img, .payments img {
     width: 200px;
     height: 200px; }
-
-  .data-api-img, .payments-api-img {
-    padding-top: 50px; }
 
   .click-me, .arrow-title, #arrow {
     display: none; }
