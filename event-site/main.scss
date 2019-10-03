@@ -923,6 +923,10 @@ width: 100%;
     display: none;
 }
 
+.data-api-img, .payments-api-img {
+    padding-top: 150px;
+}
+
 /******* MOBILE *******/
 
 
@@ -943,10 +947,6 @@ width: 100%;
     //     left: 50%;
     //     transform: translateX(-50%);
     // }
-
-    .data-api-img, .payments-api-img {
-        padding-top: 150px;
-    }
 
     .click-me, .arrow-title, #arrow {
         display: none;
