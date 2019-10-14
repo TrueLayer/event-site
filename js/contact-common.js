@@ -1,7 +1,7 @@
-const worksheetId = "366714174";
-const eventName = "FR event OB";
+const worksheetId = "2035396440"; // Australia
+const eventName = "Intersekt 2019";
 
-const hookUrl = "https://hooks.zapier.com/hooks/catch/5450443/o278hwf/";
+const hookUrl = "https://hooks.zapier.com/hooks/catch/2293863/ou3bupc/";
 
 $("#contact-form").submit(function (e) {
     e.preventDefault();
