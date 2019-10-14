@@ -11,3 +11,5 @@ function getRootUrl() {
             return "/event-site/index.html";
     }
 }
+
+$(".home-mark").attr("href", getRootUrl());
