@@ -65,6 +65,14 @@ body.body-splash {
     top: 0; }
   100% {
     top: 0; } }
+/**** SPLASH SCREEN SELF-SERVE ****/
+.logo-self-serve {
+  height: 250px;
+  margin: 0; }
+
+.subtitle-self-serve {
+  line-height: 1.5; }
+
 /**** HOME PAGE ****/
 body.homepage {
   background-color: #eeeeee; }

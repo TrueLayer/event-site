@@ -73,7 +73,16 @@ body.body-splash {
     100% {top: 0}
 }
 
-  
+/**** SPLASH SCREEN SELF-SERVE ****/
+
+  .logo-self-serve {
+      height: 250px;
+      margin: 0;
+  }
+
+  .subtitle-self-serve {
+      line-height: 1.5;
+  }
 
 /**** HOME PAGE ****/
 
@@ -706,10 +715,6 @@ input.form-control {
     height: auto;
 }
 
-// .piggy-bank {
-//     width: 100%;
-// }
-
 .qr-code {
     width: 80%;
     height: auto;
@@ -876,7 +881,6 @@ width: 100%;
 .play, .redo {
     position: absolute;
     top: 30%;
-    // left: 44%;
     left: 0;
     right: 0;
     margin: auto;
@@ -887,9 +891,7 @@ width: 100%;
     border: none;
 }
 
-// #piggy, #payments-page {
-//     margin-top: -200px;
-// }
+
 
 #piggy .play, #piggy .redo {
     background-color: $electric-violet;
