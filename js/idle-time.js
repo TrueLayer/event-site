@@ -1,17 +1,17 @@
-        var idleTime = function () {
-            var time;
-            window.onload = resetTimer;
-            document.onmousemove = resetTimer;
-            document.onkeypress = resetTimer;
+var idleTime = function () {
+    var time;
+    window.onload = resetTimer;
+    document.onmousemove = resetTimer;
+    document.onkeypress = resetTimer;
 
-            function logout() {
-                window.location.href = "../index.html"
-            }
+    function logout() {
+        window.location.href = getRootUrl();
+    }
 
-            function resetTimer() {
-                clearTimeout(time);
-                time = setTimeout(logout, 420000);
-            }
-        };
+    function resetTimer() {
+        clearTimeout(time);
+        time = setTimeout(logout, 420000);
+    }
+};
 
-        idleTime();
+idleTime();
