@@ -1,6 +1,13 @@
 function setMode(mode) {
     localStorage.setItem("mode", mode || "default");
+
+    initURL()
 }
+
+function initURL() {
+    $(".home-mark").attr("href", getRootUrl());
+}
+   
 
 function getRootUrl() {
     const mode = localStorage.getItem("mode");
@@ -12,4 +19,5 @@ function getRootUrl() {
     }
 }
 
-$(".home-mark").attr("href", getRootUrl());
+
+initURL()
