@@ -1,5 +1,5 @@
-const worksheetId = "2035396440"; // Australia
-const eventName = "Intersekt 2019";
+const worksheetId = "2051890492"; // Italy
+const eventName = "Salone dei Pagamenti ";
 
 const hookUrl = "https://hooks.zapier.com/hooks/catch/2293863/ou3bupc/";
 
